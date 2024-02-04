@@ -1,0 +1,455 @@
+*{margin: 0;}
+
+body {margin:0;
+font-family: Arial, Helvetica, sans-serif;
+background: white;}
+
+table {width: 90%;}
+table tr {padding: 30px;}
+
+#ikone{
+    padding: 10px;
+}
+.ikona{
+    width: 20px;
+    height: auto;
+    vertical-align: bottom;
+}
+td {
+    width: 500px;
+    border: 1px solid;
+}
+a.ikonelink{
+    padding-right: 15px;
+}
+
+a.ikonelink:link{
+    text-decoration: none;
+}
+
+a.ikonelink:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+
+img {max-width: 100%;
+    vertical-align: bottom;}
+
+.headertop {background: rgb(8, 8, 8);}
+
+.headertop p {padding: 10px;}
+.headertop p span {color: white;
+padding: 10px;}
+
+.wrapper {width: 90%;
+margin: 0 auto;}
+
+nav ul li a {text-decoration: none;}
+
+nav ul li a:link,
+nav ul li a:active,
+nav ul li a {color:whitesmoke;   
+padding: 20px;}
+
+nav ul li a:hover {background: black;}
+
+ul {list-style: none;
+padding: 20px 0;}
+
+.hero2 {margin:0 auto;}
+
+#Pozadina{
+    height:100%;
+    max-width: 200%;
+}
+
+#kursevi {
+    margin-left: 20px;
+}
+
+#radovi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hero {background-image: url(NEBO.jpg);
+
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.hero .bojah {background:rgb(8, 8, 8,0.5);}
+.hero2 .bojah {background:rgb(8, 8, 8,0.5);}
+
+.hero2 {background:rgb(8, 8, 8,0.5);}
+
+.herotext {
+color: BLACK;
+text-align: left;
+padding: 100px;
+}
+
+.herotext h1 {font-size: 40px;
+font-weight: 700;}
+.herotext p {font-size: 30px;
+font-weight: 500;}
+
+.wrappermain {margin:0 auto;
+    padding: 30px 30px;
+} 
+
+aside {background: rgb(128,191,255);
+    padding: 20px;
+}
+aside p {color: black;
+    padding: 20px;
+}
+aside h2 {color: black;
+    padding: 20px;}
+
+section {padding: 20px 0;
+    margin-top: 10px;}
+
+.asidetext {width: 70%;}
+
+.rezervacije1 {padding: 50px 0;
+text-align: center;
+font-size: 16px;}
+
+.rezervacije1 p {padding: 10px 0;}
+
+footer {background: rgb(30, 60, 100);
+padding: 20px 0;}
+
+.footertext {width:30%;}
+
+section h2 {text-align: center;}
+
+.altboja {background: rgb(128,191,255);}
+
+.menu {padding: 20px 0;}
+.menu h2 {padding: 20px 0;}
+.menu p {padding: 20px 0;
+width: 90%;}
+
+table {margin: 0 auto;}
+
+.dugme {
+    background: rgb(128,191,255);
+    border: rgb(128,191,255);
+    border-radius: 30px;}
+
+
+
+.dugme a:link,
+.dugme a:visited,
+.dugme a:active {background: rgb(128,191,255);
+    color:rgb(48, 40, 27);
+border: rgb(48, 40, 27);
+border-radius: 30px;
+text-decoration: none;
+}
+
+
+.dugme a:hover
+ {background: rgb(48, 40, 27);
+color:rgb(30, 60, 100);
+border: rgb(30, 60, 100);
+border-radius: 30px;
+text-decoration: none;
+padding: 10px;}
+
+
+
+@media screen and (max-width:579px){
+
+.wrapper {
+    text-align: center;}
+    
+.headertop {text-align: center;}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 10px;
+}
+.logo {/*padding: 20px;*/}
+.mainslika {margin: 0;
+padding: 0;
+}
+
+nav ul li a:link,
+nav ul li a:active,
+nav ul li a {
+    color:whitesmoke;   
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.asidetext {width: 90%;}
+
+iframe{
+    width: 100%;
+}
+
+#YTVideo{
+    width: 100%;
+    height: 315px;
+}
+
+.footertext {width:100%;
+padding: 20px 0;
+text-align:center;}
+
+    
+    .section {padding: 0 10px;}
+		
+    .text p {padding: 15px 0;
+    text-align: center;
+    max-width: 90%;}
+    .text h1 {padding: 15px;}
+    .aboutslika {padding: 15px;}
+
+}
+
+
+
+@media screen and (min-width:580px) and (max-width:1023px){
+            .wrapper {width:500px;
+            text-align: center;
+            margin:0 auto;}
+
+            .wrapermain {width: 500px;}
+        
+    
+    .hero .wrapper {
+        justify-content: space-between;
+    flex-wrap: nowrap;}
+
+    .hero2 .wrapper {display: flex;
+        justify-content: space-between;
+    flex-wrap: nowrap;}
+
+
+    main .wrapper {display: flex;
+    justify-content: space-between;}
+
+ul  {/*display: flex;
+    flex-direction: column;*/
+}
+
+li {
+    display:inline-block;
+}
+iframe{
+    width: 100%;
+}
+
+#YTVideo{
+    width: 420px;
+    height: 315px;
+}
+
+.wrappermain {display: block;
+    justify-content: start;}
+.wrappermain .maintext {
+    padding: 0 20px;
+    }
+
+aside .wrapper {display: flex;
+    justify-content: space-between;}
+
+.rezervacije1 {
+        padding: 20px 40px;}
+.product {text-align: left;}
+
+.rezervacije1 p {font-size: 16px;}
+.product p {font-size: 16px;}
+
+.maintext {/*width: 40%;*/
+            text-align: justify;
+    
+    padding: 70px 0;}
+
+.maintext p {padding:10px;}
+
+#kursList{
+    width: 60%;
+}
+
+footer .wrapper {display: flex;
+justify-content: space-between;}
+
+nav ul {/*display: flex;
+    flex-direction:column;*/
+    padding: 0px;
+    }
+nav ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+nav p {color: white;
+font-size: 25px;
+font-weight: 500;
+padding: 10px;}
+
+nav ul li a:link, nav ul li a:active, nav ul li a {
+    color: whitesmoke;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rezervacije1 {padding: 50px 0;
+    }
+
+
+        
+.section {padding: 0 10px;}
+        
+.text p {padding: 15px 0;
+        text-align: center;
+        max-width: 90%;}
+.text h1 {padding: 15px;}
+.aboutslika {padding: 15px;}
+
+
+}
+
+
+
+@media screen and (min-width:1024px) and (max-width:1279px){
+    .wrapper {width: 960px;}
+    .wrappermain {width: 960px;}
+   
+
+    .hero .wrapper {display: flex;
+        justify-content: space-between;}
+    .hero2 .wrapper {display: flex;
+            justify-content: space-between;
+        flex-wrap: nowrap;}
+    ul  {display: flex;
+        }
+        
+    li {
+        display:inline-block;
+    }
+.wrappermain {display: flex;
+    justify-content: start;}
+.wrappermain .maintext {padding: 0 70px;}
+
+aside .wrapper {display: flex;
+    justify-content: space-between;}
+
+section .wrapper {display: flex;
+        justify-content: space-between;}
+
+#Pozadina{
+    height:50%;
+    max-width: 150%;
+}
+
+.rezervacije1 p {font-size: 16px;}
+.product {text-align: left;}
+    .product p {font-size: 16px;}
+
+   
+        .maintext {width: 40%;
+            text-align: justify;
+    
+    padding: 70px 0;}
+
+    .maintext p {padding: 10px;}
+    footer .wrapper {display: flex;
+        justify-content: space-between;}
+
+        nav p {display: none;}
+
+        main .wrapper {display: flex;
+            justify-content: space-between;}
+            
+            .section {padding: 0 10px;}
+            
+            .text p {padding: 15px 0;
+            text-align: center;
+            max-width: 90%;}
+            .text h1 {padding: 15px;}
+            .aboutslika {padding: 15px;}
+
+    
+
+}
+
+
+
+
+
+@media screen and (min-width:1280px) {
+    .wrapper {width: 1200px;}
+    .wrappermain {width:1200px;}
+ 
+    .hero .wrapper {display: flex;
+        justify-content: space-between;}
+
+ .hero2 .wrapper {display: flex;
+            justify-content: space-between;
+        flex-wrap: nowrap;}
+
+    ul  {display: flex;
+        }
+        
+    li  {  display:inline-block;
+        }
+.wrappermain {display: flex;
+    justify-content: start;}
+.wrappermain .maintext {padding: 0 20px;}
+
+aside .wrapper {display: flex;
+    justify-content: space-between;}
+
+section .wrapper {display: flex;
+        justify-content: space-between;}
+
+.product {width: 33%;}
+
+.rezervacije1 p {font-size: 16px;}
+.product p {font-size: 16px;}
+
+.maintext {width: 40%;
+            text-align: justify;
+			padding: 20px 0;}
+
+.maintext p {padding:0px;}
+
+footer .wrapper {display: flex;
+justify-content: space-between;}
+
+nav p {display: none;}
+
+main .wrapper {display: flex;
+justify-content: space-between;}
+
+.section {padding: 0 10px;}
+
+.text p {padding: 15px 0;
+text-align: center;
+max-width: 90%;}
+.text h1 {padding: 15px;}
+.aboutslika {padding: 15px;}
+
+.dugme {
+    background: rgb(200, 200, 200);  
+    border: rgb(218, 175, 96);
+    border-radius: 30px;
+	}
+
+.rezervacije1 {width: 25%;}
+
+}
+    
